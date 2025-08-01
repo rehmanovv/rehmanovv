@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tunar Rəhmanzadə - Proqramlaşdırma Dərsləri</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #f3f4f6, #e0e7ff);
+      color: #1e293b;
+    }
+    header {
+      background: linear-gradient(135deg, #3a66f3 0%, #1b40c4 100%);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      border-radius: 0 0 50px 50px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 0;
+      font-weight: 400;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto 80px;
+      padding: 0 20px;
+    }
+    .features {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .feature {
+      background: white;
+      flex: 1 1 280px;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+    .feature:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    }
+    .feature a {
+      font-size: 1.5rem;
+      color: #1b40c4;
+      font-weight: 700;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 12px;
+    }
+    .feature p {
+      font-size: 1.1rem;
+      color: #334155;
+      line-height: 1.6;
+      margin: 0;
+    }
+    .btn-contact {
+      display: inline-block;
+      margin: 30px auto 0;
+      padding: 14px 40px;
+      background: #3a66f3;
+      color: white;
+      border-radius: 30px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      text-decoration: none;
+      box-shadow: 0 8px 25px rgba(58, 102, 243, 0.5);
+      transition: background 0.3s ease;
+      text-align: center;
+      max-width: 220px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .btn-contact:hover {
+      background: #1b40c4;
+    }
+    footer {
+      text-align: center;
+      padding: 25px 20px;
+      color: #64748b;
+      font-size: 0.9rem;
+      margin-top: auto;
+    }
+    @media (max-width: 700px) {
+      .features {
+        flex-direction: column;
+      }
+      .feature {
+        flex: none;
+        max-width: 100%;
+      }
+      .container {
+        margin: 20px 15px 60px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Tunar Rəhmanzadə</h1>
+  <p>Proqramlaşdırma dərslərinə xoş gəlmisiniz!</p>
+</header>
+
+<div class="container">
+  <section class="features">
+    <div class="feature" onclick="location.href='htmlcss.html'">
+      <a href="htmlcss.html">HTML & CSS Dərsləri</a>
+      <p>Sayt dizaynının əsaslarını öyrən, gözəl veb səhifələr yarat!</p>
+    </div>
+    <div class="feature" onclick="location.href='javascript.html'">
+      <a href="javascript.html">JavaScript Dərsləri</a>
+      <p>Dinamika və interaktivlik öyrən, saytlarını canlandır!</p>
+    </div>
+    <div class="feature" onclick="location.href='layihe.html'">
+      <a href="layihe.html">Layihə Dəstəyi</a>
+      <p>Real layihələrdə praktik bacarıqlar əldə et, peşəkar ol!</p>
+    </div>
+  </section>
+
+  <a href="elaqe.html" class="btn-contact">Əlaqə Saxla</a>
+</div>
+
+<footer>
+  © 2025 Tunar Rəhmanzadə. Bütün hüquqlar qorunur.
+</footer>
+
+</body>
+</html>
